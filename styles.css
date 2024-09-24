@@ -150,36 +150,3 @@ body {
           0 0 20px rgba(255, 215, 0, 0.4);
   }
 }
-
-.box-glow {
-  box-shadow: 
-      0 0 5px rgba(255, 255, 255, 0.8),
-      0 0 10px rgba(255, 215, 0, 0.8),
-      0 0 15px rgba(255, 215, 0, 0.6),
-      0 0 20px rgba(255, 215, 0, 0.4);
-  animation: pulse 1.5s infinite;
-}
-
-@keyframes pulse {
-  0% {
-      box-shadow: 
-          0 0 5px rgba(255, 255, 255, 0.8),
-          0 0 10px rgba(255, 215, 0, 0.8),
-          0 0 15px rgba(255, 215, 0, 0.6),
-          0 0 20px rgba(255, 215, 0, 0.4);
-  }
-  50% {
-      box-shadow: 
-          0 0 10px rgba(255, 255, 255, 1),
-          0 0 20px rgba(255, 215, 0, 1),
-          0 0 30px rgba(255, 215, 0, 0.8),
-          0 0 40px rgba(255, 215, 0, 0.6);
-  }
-  100% {
-      box-shadow: 
-          0 0 5px rgba(255, 255, 255, 0.8),
-          0 0 10px rgba(255, 215, 0, 0.8),
-          0 0 15px rgba(255, 215, 0, 0.6),
-          0 0 20px rgba(255, 215, 0, 0.4);
-  }
-}
